@@ -1,8 +1,15 @@
 # COVID-19 & Lung Disease Detection App
 
+![Python Logo](https://www.python.org/static/community_logos/python-logo.png)
+
 ## 📌 Project Overview
 The **COVID-19 & Lung Disease Detection App** is an AI-powered application designed to assist in detecting lung diseases, including **COVID-19, Pneumonia, and Normal lung conditions**, from medical images such as chest X-rays. By leveraging deep learning models, the app provides a fast and reliable diagnosis that can support healthcare professionals in decision-making.
-
+##Normal
+![Image](https://github.com/user-attachments/assets/4104b8b1-4fd4-461f-b526-9004c458672e)
+##Viral Pneumonia
+![Image](https://github.com/user-attachments/assets/e4551010-f1ff-4af8-836d-2c9ed1b37273)
+##Covid
+![Image](https://github.com/user-attachments/assets/21cec8a1-342d-48f3-b06c-d5e9aeb7689a)
 ## 🚀 Features
 - 🏥 **Automated Lung Disease Detection**: Identifies whether the lungs are affected by COVID-19, Pneumonia, or are in a normal state.
 - 📊 **Visualization & Reports**: Displays confidence scores and detailed reports for each prediction.
