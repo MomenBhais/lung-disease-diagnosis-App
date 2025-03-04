@@ -9,3 +9,4 @@ streamlit
 opencv-python-headless
 gdown
 pillow
+python==3.10
