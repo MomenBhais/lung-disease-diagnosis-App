@@ -9,4 +9,4 @@ scikit-learn
 streamlit
 opencv-python-headless
 gdown
-
+pillow
