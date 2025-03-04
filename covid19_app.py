@@ -5,6 +5,10 @@ import cv2
 import gdown
 from tensorflow.keras.models import load_model
 from PIL import Image
+import os
+os.system("pip uninstall opencv-python -y")
+os.system("pip install opencv-python-headless")
+import cv2
 
 # Set page configuration
 st.set_page_config(
