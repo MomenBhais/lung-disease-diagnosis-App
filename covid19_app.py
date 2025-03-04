@@ -1,6 +1,4 @@
 
-%%writefile covid19_app.py
-
 
 # Importing necessary libraries
 import streamlit as st
