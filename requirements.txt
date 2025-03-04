@@ -8,4 +8,5 @@ pandas
 scikit-learn
 streamlit
 opencv-python-headless
+gdown
 
