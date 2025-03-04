@@ -1,9 +1,8 @@
-
-
 # Importing necessary libraries
 import streamlit as st
 import numpy as np
 import cv2
+import gdown
 from tensorflow.keras.models import load_model
 from PIL import Image
 
@@ -46,10 +45,13 @@ def prediction(image):
 
     return pred_label
 
-# Load the model with caching
+# Load the model with caching (from Google Drive)
 @st.cache_resource
 def load_model_cached():
-    return load_model(r"C:\Users\DELL\Downloads\Covid_19_downloadable.h5")
+    url = "https://drive.google.com/uc?id=1dtQaD0rG9gpJ5IyqvJ3K-SWINJ1E91-e"  # رابط Google Drive
+    output = "model.h5"
+    gdown.download(url, output, quiet=False)
+    return load_model(output)
 
 model = load_model_cached()
 
